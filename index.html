@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="searchForm" action="">
+      <input name="search" type="search" />
+      <!-- <input type="submit" name="submitSearch" /> -->
+      <button class="search" type="submit"><i class="gg-search"></i></button>
+    </form>
+
+    <button class="addBtn">+ User</button>
+    <dialog class="addModal">
+      <form class="addForm" action="">
+        <input type="text" name="titleAdd" id="" />
+        <input type="text" name="descAdd" id="" />
+        <button type="submit" class="add">ADD</button>
+      </form>
+      <button class="closeAdd">Close</button>
+    </dialog>
+    <table>
+      <thead class="tr1">
+        <tr>
+          <th>Title</th>
+          <th>Descriptoin</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody class="box"></tbody>
+    </table>
+    <dialog class="infoModal">
+      <p class="p1"></p>
+      <p class="p2"></p>
+      <p class="p3"></p>
+      <button class="infoBtn">Close</button>
+    </dialog>
+    <dialog class="editModal">
+      <form class="editForm" action="">
+        <input type="text" name="titleEdit" id="" />
+        <input type="text" name="descEdit" id="" />
+        <button type="submit" class="Edit">EDIT</button>
+      </form>
+      <button class="closeEdit">Close</button>
+    </dialog>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

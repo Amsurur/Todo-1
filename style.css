@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700;800&family=Montserrat:wght@400;500;600;700&family=Yellowtail&display=swap');
+
+.addBtn{
+background-color: skyblue;
+border-radius: 10px;
+border: none;
+padding: 10px 20px;
+font-size: 20px;
+
+}
+
+
+
+.gg-info {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 40px
+   }
+   
+   .gg-info::after,
+   .gg-info::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    background: currentColor;
+    left: 7px
+   }
+   
+   .gg-info::after {
+    bottom: 2px;
+    height: 8px
+   }
+   
+   .gg-info::before {
+    height: 2px;
+    top: 2px
+   } 
+   .gg-pen {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: rotate(-45deg) scale(var(--ggs,1));
+    width: 14px;
+    height: 4px;
+    border-right: 2px solid transparent;
+    box-shadow:
+    0 0 0 2px,
+    inset -2px 0 0;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    margin-right: -2px
+   }
+   
+   .gg-pen::after,
+   .gg-pen::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+   }
+   
+   .gg-pen::before {
+    background: currentColor;
+    border-left: 0;
+    right: -6px;
+    width: 3px;
+    height: 4px;
+    border-radius: 1px;
+    top: 0
+   }
+   
+   .gg-pen::after {
+    width: 8px;
+    height: 7px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 7px solid;
+    left: -11px;
+    top: -2px
+   } 
+   .td1{
+    display: flex;
+    align-items: center;
+text-align: center;
+justify-content: space-evenly;
+
+   }
+   table{
+    /* border: 2px solid black; */
+    border-collapse: collapse;
+    width: 90%;
+    box-shadow: 0px 15px 30px 25px rgb(218, 114, 114);
+        /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 50px;
+    margin: 100px auto;
+  
+    
+
+
+
+
+   }
+   th{
+    border: 2px solid grey;
+    width: 99%;
+    border-top: none;
+border-left: none;
+border-right: none;
+padding: 30px;
+
+
+   
+   }
+   td{
+    border: 2px solid grey;
+    width: 98%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 30px 0 10px 0;
+
+
+   }
+   tr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    text-align: center;
+    width: 98%;
+    display: flex;
+    margin:0 auto;
+    border-radius: 20px;
+    
+
+   }
+   .checked{
+    text-decoration: line-through;
+    color: green;
+    font-size: 20px;
+   }
+   .unchecked{
+    text-decoration: none;
+   }
+   .statusChecked{
+    background-color: green;
+    width: 50%;
+    margin:5px auto 15px auto;
+    padding: 7px 12px;
+    border-radius: 15px;
+    color:white;
+
+
+   }
+   .statusUnChecked{
+    background-color: red;
+    width: 50%;
+    margin:5px auto 15px auto;
+    padding: 7px 12px 10px 12px;
+border-radius: 15px;
+color:white;
+
+   }
+   .searchForm{
+    text-align: center;
+   }
+   .gg-search {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-left: -4px;
+    margin-top: -4px
+   }
+   
+   .gg-search::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 8px;
+    background: currentColor;
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 12px
+   } 
+   .search{
+    border: none;
+    background-color: white;
+   }
+   .searchForm{
+    display: flex;
+    align-items: center;
+    width: 18%;
+    justify-content: space-around;
+ 
+   }
+   .searchForm input{
+    
+    border:1px solid grey ;
+    border-radius: 5px ;
+   }
+   .addBtn{
+    margin: 10px 0px 0px 65px;
+    box-shadow: -5px 10px 10px 2px rgb(109, 165, 188);
+
+   }
+   .div:hover{
+    background-color: cyan;
+   }
+   .addModal{
+text-align: center;
+border-radius: 20px;
+background-color: rgb(185, 236, 255);
+   }
+   .addModal input{
+    border-radius: 10px;
+    padding: 10px;
+   }
+   .addModal .closeAdd{
+    margin: 20px auto auto 0;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.771);
+    color: white;
+   }
+   .add{
+    margin: 20px auto auto 0;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(64, 178, 64);
+    color: white;
+   }
+   dialog{
+    border-radius: 20px;
+    border: none;
+   }
+   .editModal{
+    text-align: center;
+border-radius: 20px;
+background-color: rgb(185, 236, 255);
+   }
+   .closeEdit{
+    margin: 20px auto auto 0;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.771);
+    color: white;
+   }
